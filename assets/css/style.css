@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: white; /*set all text to white unless otherwise specified later*/
 }
 
 body {
@@ -13,7 +14,6 @@ header {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
-  color: white;
 }
 
 header h1 {
@@ -43,7 +43,6 @@ header nav ul li {
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
@@ -91,7 +90,6 @@ main {
 .benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
-  color: white;
 }
 
 .benefit-lead h3,
@@ -117,7 +115,6 @@ main {
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
-  color: white;
 }
 
 .search-engine-optimization img,
@@ -139,19 +136,14 @@ footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  /* color: red; */
+  /* color: black; */
+}
+
+/* sets all text within the footer to black */
+footer * {
+  color: black;
 }
 
 footer h2 {
   font-size: 20px;
 }
-
-/*Questions: When I set the universal declaration to white at the top, 
-then set the color in "footer" to black, for some reason the universal 
-declaration takes precedence. WHY?
-
-What kind of code efficiency boost are you looking for? What do I need to do in CSS?
-
-What exactly needs to be in the ReadMe for this project? Is it just the changes that we made? Or is it a readme for the whole site?
-
-*/
